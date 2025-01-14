@@ -1,6 +1,6 @@
 # GFnet classify Alzheimer's disease of the ADNI dataset
 
-## What is FGnet  
+## What is GFnet  
 GFNet is a conceptually simple yet computationally efficient architecture designed to advance the trend of minimizing inductive biases in vision models while maintaining log-linear computational complexity. The core idea behind GFNet is to learn the interactions among spatial locations in the frequency domain, diverging from traditional self-attention mechanisms in vision transformers and fully connected layers in MLPs. [1]
 
 In GFNet, interactions among tokens are modeled through a set of learnable global filters applied directly to the spectrum of input features. This unique approach enables the model to capture both long-term and short-term interactions effectively, as the global filters encompass all frequencies. Notably, GFNet learns these filters directly from raw data, eliminating the need for human priors. [1]
